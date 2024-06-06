@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    height: 100% ;
+}
+
+.header{
+    background-color: #6BAA75;
+
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0 0 17px;
+    margin-top: -35px;
+    color: white;
+}
+
+
+
+.header h1{
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*---Background Images---*/
+
+.menu-logo{
+    background-image: url(images/Kleinstyen.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.meals-menu-logo{
+    background-image: url(images/meals.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.starters-menu-logo{
+    background-image: url(images/Starters.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.drinks-menu-logo{
+    background-image: url(images/drinks.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.deserts-menu-logo{
+    background-image: url(images/Deserts.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/restaurant-back.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: cover;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2B2B2B;
+
+}
+
+
+/*--- Menu Lists ---*/
+
+#menu-list{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 100px;
+    
+}
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid white;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+
+/*--- Meals Details ---*/
+
+#meals{
+    padding-top: 50px;
+}
+
+.meal-details img{
+    width: 100%;
+
+}
+
+.meal-details{
+    padding: 17px 0 0 17px;
+    margin: 0;
+}
+
+.meal-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.meal-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.meal-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.meal-details-info p{
+    font-size: 13px;
+    display: inline-block;
+}
+
+.meal-details table{
+    font-size: 13px;
+    text-align: center;
+    border: 5px solid;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 10px;
+    padding: 5px;
+    
+}
+
+.meal-details-ingredients input{
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5px;
+}
+
+.meal-details-steps {
+    padding-top: 20px;
+}
+
+.meal-details-steps button{
+    padding-left: 28px;
+}
+
+
+
+
+
+input{
+    width: 50%;
+    height :25px;
+    margin : 12px 0;
+    border : 1px solid;
+    align-items: center;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+}
+
+
+
+.button{
+    display : block;
+    background-color: #6BAA75;
+    text-decoration : none;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding : 8px 0;
+
+    border: none;
+    color: white;
+    border-radius: 6px;
+    width: 17%;
+    font-weight: 800;
+    margin-bottom: 0px;
+    font-family: var(--font-primary);
+    text-align: center;
+    align-items: center;
+    margin-right: 12px;
+    font: normal normal normal 14px / 19px var(--font-secondary);
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+
+
+ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ul li a{
+    position: relative;
+    list-style: none;
+}
+
+ul li a{
+    position: relative;
+    font-size: 5em; 
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--clr);
+    -webkit-text-stroke: 1px rgb(225, 225, 225, 0.5);
+}
+
+ul li a::before{
+    content: attr(data-text);
+    position: absolute;
+    color: var(--clr);
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 8px solid var(--clr);
+    -webkit-text-stroke: 1px var(--clr);
+}
+
+ul li a:hover::before{
+    width: 100%;
+    filter: drop-shadow(0 0 25px var(--clr));
+}       
+
+
+
+/*--- Responsive Layout ---*/
+
+
+@media only screen and (min-width: 600px){
+    #meals{
+        width: 80% ;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 40%;
+    }
+}
